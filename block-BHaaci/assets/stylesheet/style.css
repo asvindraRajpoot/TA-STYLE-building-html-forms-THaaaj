@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**************************************************************************************************Generic styles*************/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(rgb(247,121,120,.8),rgb(247,121,120,.8)), url(../bg-intro-desktop.png);
+}
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.flex{
+    display: flex;
+}
+/*******************************************************************************************************************************/
+/**********************Custom Styles****************************************************/
+.form{
+justify-content: start;
+padding: 100px;
+margin: 30px 20px;
+
+}
+.left{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+.right{
+    width: 50%;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.left h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.left p{
+    font-size: 15px;
+    color: #FCD7D9;
+    margin-top: 20px;
+}
+
+.right .blue-box h3{
+    background-color: #5D54A3;
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    color: #d9d5f1;
+      font-weight: bold;
+      padding: 16px;
+      border-radius: 6px;
+      font-size: 15px;
+      border: 0;
+      border-bottom: 5px solid #F77978;
+
+}
+.right .blue-box span{
+    font-weight: normal;
+    font-size: 12px;
+    color: #bdb8df;
+}
+form{
+    height: 500px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+}
+form input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #F2F2F2;
+    outline: 0;
+}
+button{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #3FCC8A;
+    color: white;
+    border: 0;
+    border-bottom:3px solid #39bd81;
+    border-bottom:;
+
+}
+.form-control{
+
+    color: #5C5B61;
+    font-weight: bold;
+    
+}
+.form-control:focus{
+    border: 2px solid #A6A0C6;
+}
+h4{
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+    color: #DAD8E4;
+    font-weight: bold;
+}
+h4 span{
+    color:#F9ABB1 ;
+}
